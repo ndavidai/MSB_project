@@ -2,8 +2,7 @@
 
 #### egg data ####
 #loading data 
-setwd("~/Noas data")
-egg_counts <- read.csv("MSB egg mass counts.csv")
+egg_counts <- read.csv("input/MSB egg mass counts.csv")
 
 # quick visualizations
 summary(egg_counts)
